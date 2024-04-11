@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: linear-gradient(rgb(79, 60, 30), rgb(152, 113, 79), rgb(155, 127, 97));
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(77, 53, 24);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(159, 159, 159);
+    font-size: 1.1rem
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(77, 53, 24);
+    height: 1.5px;
+    margin: 40px 84px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.btn1 {
+    border: none;
+    height: 40px;
+    font-size: 0.75rem;
+    color: white;
+    background-color: rgb(79, 60, 30);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn1 {
+    transition-duration: 0.4s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(79, 60, 30);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
+
+.btn2 {
+    border: 0px;
+    height: 40px;
+    font-size: 0.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 10;
+    color: rgb(79, 60, 30);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: white;
+
+    background-color: rgb(79, 60, 30);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
+
+.first {
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first>div {
+    width: 40%;
+}
+
+.leftsection div {
+    font-size: 3rem;
+}
+
+.rightsection img {
+    position: relative;
+    width: 80%;
+    margin: 23px;
+}
+
+.second {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.text-brown {
+    font-size: 1rem;
+    color: rgb(219, 196, 173);
+}
+
+.line {
+    background-color: white;
+    height: 2px;
+    width: 150vh;
+    margin: 60px;
+    display: flex;
+
+}
+
+.vertical-lines {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 2px;
+    height: 90px;
+    margin: 0 100px;
+}
+
+.html {
+    height: 50px;
+    position: relative;
+    top: -52px;
+    left: 84px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 93px;
+    left: 57px;
+}
+
+
+.dec {
+    position: relative;
+    top: 150px;
+    left: -35px;
+    
+}
+
+.purple {
+    color: rgb(66, 22, 22);
+}
+
+#element {
+    color: rgb(66, 22, 22);
+
+}
